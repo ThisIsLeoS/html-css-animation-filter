@@ -118,8 +118,6 @@
 @keyframes spin-revert {
   90% { transform: rotate(270deg); }
   100% { transform: rotate(0); }
-  /* 0% { transform: rotate(270deg); }
-  100% { transform: rotate(-270deg); } */
 }
 
 .ex-12-button, .ex-13-button {
@@ -178,11 +176,10 @@
   animation: circle-bottom-white 2s linear;
 }
 
-/* not working, not sure why */
 @keyframes circle-top-white {
-  30% { left: calc(100% - 10px); top: -10px; };
-  45% { left: calc(100% - 10px); top: calc(100% - 10px); };
-  75% { left: -10px; top: calc(100% - 10px); };
-  90% { left: -10px; top: -10px; };
-  100% { left: 10%; top: -10px; };
+  30% { left: calc(100% - 10px); top: -10px; }
+  45% { left: calc(100% - 10px); top: calc(100% - 10px); }
+  75% { left: -10px; top: calc(100% - 10px); }
+  90% { left: -10px; top: -10px; }
+  100% { left: 10%; top: -10px; }
 }
